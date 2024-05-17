@@ -84,9 +84,11 @@ jobs:
         #echo "CONFIG_FIRMWARE_INCLUDE_V2RAY=y" >> .config
         #echo "CONFIG_FIRMWARE_INCLUDE_XRAY=n" >> .config
         #echo "CONFIG_FIRMWARE_INCLUDE_TROJAN=y" >> .config 
-        #echo "CONFIG_FIRMWARE_INCLUDE_SSOBFS=y" >> .config 
+        #echo "CONFIG_FIRMWARE_INCLUDE_SSOBFS=y" >> .config
+        ##广告服务##
         #echo "CONFIG_FIRMWARE_INCLUDE_ADBYBY=y" >> .config
-        #echo "CONFIG_FIRMWARE_INCLUDE_SMARTDNS=n" >> .config
+        ##DNS服务##
+        #echo "CONFIG_FIRMWARE_INCLUDE_SMARTDNS=y" >> .config
         ##vpn
         echo  "CONFIG_FIRMWARE_INCLUDE_OPENVPN=n" >> .config
         #echo "CONFIG_FIRMWARE_INCLUDE_SOFTETHERVPN_SERVER=n" >> .config
